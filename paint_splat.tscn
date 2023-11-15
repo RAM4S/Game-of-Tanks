@@ -1,0 +1,40 @@
+[gd_scene load_steps=5 format=3 uid="uid://boqgjb36xioqs"]
+
+[ext_resource type="Script" path="res://paint_splat.gd" id="1_ik6lu"]
+[ext_resource type="Texture2D" uid="uid://q52vd23e7fqt" path="res://explosion/pngegg.png" id="2_yn3ts"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_h6ew3"]
+transparency = 4
+albedo_color = Color(1, 1, 0.0588235, 1)
+albedo_texture = ExtResource("2_yn3ts")
+billboard_mode = 3
+billboard_keep_scale = true
+particles_anim_h_frames = 1
+particles_anim_v_frames = 1
+particles_anim_loop = false
+
+[sub_resource type="QuadMesh" id="QuadMesh_h6syt"]
+resource_local_to_scene = true
+material = SubResource("StandardMaterial3D_h6ew3")
+size = Vector2(2, 2)
+center_offset = Vector3(0.9, -0.5, -2)
+
+[node name="Paint_splat" type="Node3D"]
+script = ExtResource("1_ik6lu")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(-1, 0, 1.50996e-07, 0, 1, 0, -1.50996e-07, 0, -1, 0, 0, 0)
+top_level = true
+mesh = SubResource("QuadMesh_h6syt")
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 0.2
+autostart = true
+
+[node name="OmniLight3D" type="OmniLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0134221, 0.603536, -0.118556)
+light_color = Color(1, 0.596078, 0.0470588, 1)
+light_size = 50.0
+omni_range = 50.0
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

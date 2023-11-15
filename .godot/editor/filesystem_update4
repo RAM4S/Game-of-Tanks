@@ -1,0 +1,7 @@
+res://main.tscn
+res://Player_tank/player_tank.tscn
+res://world.tscn
+res://Tank_shell/tank_shell.tscn
+res://paint_splat.tscn
+res://Player2_tank/player_2_tank.tscn
+res://log_in_page.tscn
