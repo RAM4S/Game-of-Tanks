@@ -13,3 +13,17 @@ export_presets.cfg
 .mono/
 data_*/
 mono_crash.*.json
+
+# Asset files
+
+addons
+Bullet funny
+explosion
+Icons
+Miscs
+Mona_Lisa
+Parking
+Sign_library
+sounds
+Tank_simple
+Target
