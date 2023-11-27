@@ -4,7 +4,7 @@ Game inspired by Wargamings Word Of Tanks
 
 Developed by Ramūnas Paplauskas.
 
-Game created as CodeAcademy Python begginers course end assigment as a proof of concept and a testbed for further tank game development.
+Game created as CodeAcademy Python begginers course end assigment/proof of concept and a testbed for further tank game development.
 
 Developed on GODOT game engine ver. 4.1.2
 
