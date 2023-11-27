@@ -1,6 +1,6 @@
 # Game-of-Tanks
 
-Game inspired by Wargamings Word Of Tanks
+Game inspired by Wargamings World Of Tanks
 
 Developed by Ramūnas Paplauskas.
 
