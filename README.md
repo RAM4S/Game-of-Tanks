@@ -1,12 +1,15 @@
 # Game-of-Tanks
 
-Develped by Ramūnas Paplauskas.
+Game inspired by Wargamings Word Of Tanks
 
-Game created as CodeAcademy Python begginers course end assigment.
+Developed by Ramūnas Paplauskas.
+
+Game created as CodeAcademy Python begginers course end assigment as a proof of concept and a testbed for further tank game development.
 
 Developed on GODOT game engine ver. 4.1.2
 
 To try this game you need to go to https://godotengine.org/download/
+
 and download the game engine. 
 
 Unzip the files. There is no need to install the engine as it is self contained. Click the icon to start GODOT.
